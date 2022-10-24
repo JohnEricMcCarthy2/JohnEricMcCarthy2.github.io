@@ -312,6 +312,11 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
+	.row img {
+		height: 250px;
+		width: 100%;
+	}
+
 		.row > * {
 			box-sizing: border-box;
 		}
