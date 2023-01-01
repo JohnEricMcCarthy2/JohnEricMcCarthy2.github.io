@@ -56,6 +56,7 @@ body {
 		padding: 7px 25px;
 		display: inline-block;
 		flex: 0 0 100%;
+		
 	}
 
 li {
@@ -316,6 +317,15 @@ input, select, textarea {
 			.container {
 				width: 100% !important;
 				max-width: 100% !important;
+			}
+
+			nav a{
+				color: #fff;
+				text-decoration: none;
+				padding: 7px 5px;
+				display: inline-block;
+				flex: 0 0 100%;
+				
 			}
 
 		}
