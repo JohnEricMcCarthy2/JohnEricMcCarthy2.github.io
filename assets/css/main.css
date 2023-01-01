@@ -55,6 +55,7 @@ body {
 		text-decoration: none;
 		padding: 7px 25px;
 		display: inline-block;
+		flex: 0 0 100%;
 	}
 
 li {
