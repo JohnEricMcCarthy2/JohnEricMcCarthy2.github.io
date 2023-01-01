@@ -65,7 +65,7 @@ li a {
 	display: inline;
 	color: white;
 	text-align: center;
-
+	flex: 0 0 100%;
 	text-decoration: none;
   }
 
