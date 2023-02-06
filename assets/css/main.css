@@ -55,6 +55,8 @@ body {
 		text-decoration: none;
 		padding: 7px 25px;
 		display: inline-block;
+		flex: 0 0 100%;
+		
 	}
 
 li {
@@ -65,7 +67,7 @@ li a {
 	display: inline;
 	color: white;
 	text-align: center;
-
+	flex: 0 0 100%;
 	text-decoration: none;
   }
 
@@ -316,7 +318,6 @@ input, select, textarea {
 				width: 100% !important;
 				max-width: 100% !important;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -324,7 +325,14 @@ input, select, textarea {
 			.container {
 				max-width: calc(100% - 3em);
 			}
-
+			nav a{
+				color: #fff;
+				text-decoration: none;
+				padding: 7px 7px;
+				display: inline-block;
+				flex: 0 0 100%;
+				
+			}
 		}
 
 /* Row */
